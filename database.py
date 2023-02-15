@@ -60,7 +60,7 @@ class Database:
         self.conn.commit()
 
     def update(self, id: int, chemical: Chemical):
-        query = f"UPDATE chemicals SET name='{chemical.name}', cas_number='{chemical.cas_number}', banned={chemical.banned}, classification='{chemical.classification}', melting_point={chemical.melting_point}, boiling_point={chemical.boiling_point}, flashpoint={chemical.flashpoint}, storage_temp={chemical.storage_temp} WHERE id={id};"
+        query = f"UPDATE chemicals SET cas_number='{chemical.cas_number}', name='{chemical.name}', banned={chemical.banned}, classification='{chemical.classification}', melting_point={chemical.melting_point}, boiling_point={chemical.boiling_point}, flashpoint={chemical.flashpoint}, storage_temp={chemical.storage_temp} WHERE id={id};"
         self.cursor.execute(query)
         self.conn.commit()
 
