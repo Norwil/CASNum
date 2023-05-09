@@ -1,6 +1,8 @@
 # CAS Number Database Project
 
 This project is a simple database that stores chemical compounds information using CAS (Chemical Abstracts Service) numbers. The user can interact with the database by fetching information of a specific chemical compound using its CAS number.
+![Screenshot 2023-05-09 115709](https://user-images.githubusercontent.com/46763365/237062596-f024333e-f3da-49ee-a0f9-80096fca0f62.png)
+
 
 ## Requirements
 
