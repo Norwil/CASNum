@@ -7,7 +7,7 @@ This project is a simple database that stores chemical compounds information usi
 ## Requirements
 
 - Python 3.x
-- SQLite
+- SQLite 
 
 
 ## Installation
